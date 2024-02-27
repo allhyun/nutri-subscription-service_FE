@@ -6,7 +6,7 @@ import Header from './components/Header';
 import SubscriptionForm from './components/SubscriptionForm';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
-//import HealthSurvey from './components/HealthSurvey';
+import HealthSurvey from './components/HealthSurvey';
 import NutriProducts from './components/NutriProducts';
 import CustomerReviews from './components/CustomerReviews';
 import Events from './components/Events';
@@ -21,6 +21,7 @@ function App() {
               <Routes>
                 <Route path="/login" component={Login} />
                 <Route path="/signup" component={SignUp} />
+                <Route path="/health-survey" component={HealthSurvey} />
                 <Route path="/nutritional-products" component={NutriProducts} />
                 <Route path="/customer-reviews" component={CustomerReviews} />
                 <Route path="/events" component={Events} />
